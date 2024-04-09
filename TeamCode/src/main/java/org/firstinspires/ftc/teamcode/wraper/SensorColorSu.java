@@ -91,6 +91,9 @@ public class SensorColorSu extends SensorColor {
         }
 
     }
+    public int AvrageRGB_Value(){
+        return ((getGreen()+getRed()+getBlue())/3);
+    }
 
 
 }
