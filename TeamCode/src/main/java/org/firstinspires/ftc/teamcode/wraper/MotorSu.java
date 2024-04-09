@@ -41,5 +41,8 @@ public class MotorSu extends MotorEx {
             currentPwr = newPwr;
         }
     }
+    public double getPower(){
+        return currentPwr;
+    }
 
 }
